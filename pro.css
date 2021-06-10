@@ -1,0 +1,83 @@
+body{
+    background-image: url(back.webp);
+    color: white;
+}
+
+#title_project{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-style: oblique;
+    color: whitesmoke;
+}
+
+.mine,img{
+    border-radius: 30px;
+    padding-left: 4mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+@font-face{
+    font-family: custom;
+    src: url(go3v2.ttf);
+}
+ .self{
+     font-family: custom;
+     font-size: 4vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+    .heart{
+        height: 50px;
+        transition: 2s;
+    }
+    .heart:hover{
+        height: 3mm;
+        pointer-events: stroke;
+    }
+
+ .about{
+     font-family: custom;
+     font-size: 4vh;
+ }
+
+ .list{
+     font-size: 7mm;
+ }
+
+.skill{
+    font-size: 7mm;
+}
+.achive,ul{
+    font-size: 7mm;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: custom;
+    font-size: 7mm;
+}
+.form{
+    width: 20%;
+    height: 50vh;
+    background: chocolate;
+    border-radius:25px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#batman ,img {
+    height: 100px;
+    animation: 2s;
+}
